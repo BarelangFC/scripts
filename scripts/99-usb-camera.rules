@@ -1,0 +1,1 @@
+ACTION=="add", SUBSYSTEM=="video4linux", ATTRS{idVendor}=="046d", ATTRS{idProduct}=="085e", SYMLINK+="usb_cam", RUN+="/bin/bash -c '/home/ekorudiawan/start_usb_cam.sh'"
